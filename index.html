@@ -1,0 +1,60 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Glass Effect</title>
+</head>
+
+<style>
+
+	body{
+		background-image: url(bg01.jpg);
+	}
+
+	h1{
+		color: #dcdde1;
+	}
+
+	h1:hover{
+		color: #487eb0;
+	}
+
+
+	.card{
+		width: auto;
+    	height: 420px;
+    	border-radius: 10px;
+    	margin: 80px 20px;
+    	cursor: pointer;
+	    transition: all 0.5s ease;
+	    background-color: #f89;
+	    display: flex;
+    	justify-content: center;
+   		align-items: center;
+   		/* GLASS EFFECT */   		
+		background-color: #ffffff10;
+   		backdrop-filter:blur(12px);
+   		-webkit-backdrop-filter:blur(12px);
+
+	}
+
+
+
+/* //Para usarlo con hover, quitar arriba y dejar esta!! ///
+
+	.card:hover{
+		background-color: #ffffff10;
+   		backdrop-filter:blur(12px);
+   		-webkit-backdrop-filter:blur(12px);
+	}
+*/
+
+
+</style>
+
+<body>
+	<div class="card">
+		<h1>HELLO MUNDO!!</h1>
+	</div>
+</body>
+</html>
